@@ -21,8 +21,8 @@ Se ordena los contenidos de diferentes maneras. En nuestro caso, se tiene un men
 
 .El principio de la navegación enfocada:
 Este principio indica no mezclar contenidos. En mi caso, el landing page está divido de acuerdo al título por sección. Por ende, sólo encontraremos información referente al título sin mezclarse.
-.El principio de crecimiento:
 
+.El principio de crecimiento:
 Este principio indica que se puede agregar más contenido o secciones dentro del landing page. En mi caso, esto se cumple porque la infromación está dividida en secciones, y se pueda agregar tantas secciones como se desee.
 
 
