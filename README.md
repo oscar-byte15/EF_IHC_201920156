@@ -9,15 +9,20 @@ con la descripción de la imagen.
 Los principios de arquitectura utilizados para la elaboración del Landing Page
 .The Principle of elección:
 Trata de reducir las opciones de elección en la primera interacción con nuestro landing page. Por eso al cargar la página muestra las opciones de descarga en play store o app store como prioridad. 
+
 .El principio de la divulgación:
 Presenta la información por capas. En mi caso, el landing page está dividido en secciones la información correspondiente y muy minimalista.También, se agrega los diferentes botones por cada sección.
+
 .El principio de las puertas de entrada:
 Proporciona múltiples fuentes de entrada dentro del landing page. En nuestro caso, se colocan varios botones en el top de la pantalla donde al hacer click te direcciona al espacio que se encuentra esa información, sin la necesidad de buscar por toda la página.
+
 .El principio de la clasificación múltiple:
 Se ordena los contenidos de diferentes maneras. En nuestro caso, se tiene un menor desglosable en la versión app mobile donde se presentan vínculos que te redirecciona a los espacios donde se encuentra la información dentro de la página.
-.El principio de la navegación enfocada.
+
+.El principio de la navegación enfocada:
 Este principio indica no mezclar contenidos. En mi caso, el landing page está divido de acuerdo al título por sección. Por ende, sólo encontraremos información referente al título sin mezclarse.
-.El principio de crecimiento.
+.El principio de crecimiento:
+
 Este principio indica que se puede agregar más contenido o secciones dentro del landing page. En mi caso, esto se cumple porque la infromación está dividida en secciones, y se pueda agregar tantas secciones como se desee.
 
 
