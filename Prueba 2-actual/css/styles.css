@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: normal 16px sans-serif;
+    color: #555;
+    scroll-behavior: smooth;
+}
+ul, nav {
+    list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	opacity: 0.9;
+}
+a:hover {
+    opacity: 3;
+    cursor: pointer;
+}
+a.btn {
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #2196f3;
+    font-weight: 800;
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+  
+    padding: 120px 0px;
+ 
+}
+@media (max-width: 1000px){
+	section{
+		padding: 20px 0px;
+	}
+}
+
+
+ul.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*header*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(253, 252, 250);
+    padding: 0px 110px 0;
+    background-color: #375e97;
+}
+header h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+
+header nav {
+    display: flex;
+}
+
+header nav li {
+    margin: 0px 35px;
+    
+}
+header nav li:first-child {
+    margin-left:0; 
+}
+/*controlar el tamaño de logo del header */
+header h2 img {
+    width: 65px;
+    height:65px;
+    max-width: 65px;
+    margin-left: -75px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    padding-top: 0px;
+}
+
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+@media(max-width: 1000px){
+    header {
+        padding: 1px 40px;
+    }
+}
+
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+
+
+/* ----------1--------------*/
+
+.hero {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin:0;
+   
+
+}
+
+.hero .background-image{
+    position: absolute;
+    top: 0;
+
+  left:0;
+    width:100%;
+
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    opacity: 95%;
+    background-color: #555;
+   
+
+ 
+}
+.hero .background-image:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    width: 90%;
+    height: 100%;
+
+}
+.hero h1 {
+    font: bold 60px 'Poppins', sans-serif;
+    margin: 5px;
+    padding: 5px;
+    z-index: 2;
+}
+.hero h2{
+    font: bold 60px 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(240, 139, 8);
+    border-radius: 12px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.hero img {
+    z-index: 4;
+    width: 550px;
+}
+
+/* ----------1--------------*/
+
+/* ----------2--------------*/
+.nosotros{
+    background-color: #375e97;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.nosotros .background-image{
+    /* position: absolute;*/
+     top: 0;
+     left: 0;
+     width:100%;
+     height: 560px;
+     background-size:cover;
+     background-color: #414a4f;
+     margin:0;
+ }
+ .nosotros .background-image:after{
+     content: '';
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 560px;  
+
+ }
+
+ .nosotros h4{
+    font: bold 40px 'Poppins', sans-serif;
+	text-align: center;
+    color:rgb(253, 252, 250);
+}
+.nosotros h5{
+    color:#fff;
+    text-align: center;
+    font:25px 'Poppins', sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.nosotros h2 img{
+    max-width: 290px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    height: 290px;
+    
+}
+.nosotros h6{
+    font: bold 60px 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(240, 139, 8);
+    border-radius: 12px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    color:#fff;
+    z-index: 2;
+}
+@media (max-width: 550px){
+    .nosotros {
+        min-height: 100%;
+    }
+    .nosotros h2 img{
+        margin-bottom: 10px;
+		padding-bottom: 10px;
+		max-width: 170px;
+		max-height: 170px;
+    }
+	.nosotros h4{
+        font-size: 1px;
+    }
+	.nosotros video{
+		width: 350px;
+		height: 200px;
+	}
+}
+@media(max-width: 750px){
+    .nosotros h4 {
+        font-size: 20px;
+    }
+}	
+/* ----------2--------------*/
+
+
+/* ----------3--------------*/
+.asesorias_c{
+    background-color: rgb(240, 139, 8);
+   
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+}
+.asesorias_c h3{
+    font: bold 40px 'Poppins', sans-serif;
+    
+    padding-bottom: 40px;
+    color:rgb(253, 252, 250);
+}
+.asesorias_c h4{
+    font:25px 'Poppins', sans-serif;
+    color:#fff;
+}
+.asesorias_c a{
+    font: bold 40px 'Poppins', sans-serif;
+}
+.asesorias_c .grid li{
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+.asesorias_c .grid li p{
+   color:#fff;
+   font:25px 'Poppins', sans-serif;
+}
+/*----------------------*/
+
+
+.a_cooperativas{
+    background-color: #375e97;
+   
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+}
+.a_cooperativas h3{
+    font: bold 40px 'Poppins', sans-serif;
+    
+    padding-bottom: 40px;
+    color:rgb(253, 252, 250);
+}
+.a_cooperativas h4{
+    font:25px 'Poppins', sans-serif;
+    color:#fff;
+}
+.a_cooperativas a{
+    font: bold 40px 'Poppins', sans-serif;
+}
+.a_cooperativas .grid li{
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+.a_cooperativas .grid li p{
+   color:#fff;
+   font: 25px 'Poppins', sans-serif;
+}
+
+
+/*----------------------*/
+
+.a_coorporativo{
+    background-color: rgb(240, 139, 8);
+   
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+}
+.a_coorporativo h3{
+    font: bold 40px 'Poppins', sans-serif;
+    
+    padding-bottom: 40px;
+    color:rgb(253, 252, 250);
+}
+.a_coorporativo h4{
+    font:25px 'Poppins', sans-serif;
+    color:#fff;
+}
+.a_coorporativo a{
+    font: bold 40px 'Poppins', sans-serif;
+}
+.a_coorporativo .grid li{
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+.a_coorporativo .grid li p{
+   color:#fff;
+   font: 25px 'Poppins', sans-serif;
+}
+
+
+
+
+/* ----------3--------------*/
+/* ----------4--------------*/
+
+.pricing{
+    background-color: #375e97;
+    padding-bottom: 0;
+    padding-top:60px;
+}
+
+
+.pricing h6{
+    font:bold 40px 'Poppins', sans-serif;
+    text-align: center;
+    color:#fff;
+}
+.pricing p{
+    font:25px 'Poppins', sans-serif;
+    color:#fff;
+    text-align: center;
+    align-content: center;
+   
+}
+.pricing .rounded-lg {
+    border-radius: 1rem !important;
+}
+
+.pricing .text-small {
+    font-size: 0.9rem !important;
+}
+
+.pricing .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+}
+
+.pricing .text-uppercase {
+    letter-spacing: 0.2em;
+}
+@media(max-width: 750px){
+    .pricing .col-lg-4 {
+		width: 370px;
+		margin-left: 40px;
+	}
+	.pricing{
+		justify-content: center;
+	}
+	.pricing p{
+		font-size: 20px;
+	}
+}
+
+/* ----------4--------------*/
+/* ----------5--------------*/
+.graf{
+
+    padding: 50px 230px;
+    height:690px;
+}
+.graf h1{
+    font: bold 40px 'Poppins', sans-serif;
+    padding-top:45px;
+    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#375e97;
+}
+
+
+/* ----------5--------------*/
+
+
+
+
+
+.footer{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-color: rgb(240, 139, 8);
+	padding: 60px 0;
+}
+footer ul{
+	display: flex;
+	margin-bottom: 25px;
+	font-size: 32px;
+}
+
+footer ul li{
+	margin: 0 8px;	
+}
+
+footer ul li:first-child{
+	margin-left: 0;	
+}
+footer ul li:last-child{
+	margin-right: 0;	
+}
